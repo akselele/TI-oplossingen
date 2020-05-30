@@ -297,6 +297,14 @@ HQ(config)# access-class 10 in
 HQ(config)# interface g0/1.250
 HQ(config)# ip acces-group INT-WEB out
 
+HQ(config)# int g0/0
+HQ(config-if)# no shut
+HQ(config-if)# exit
+HQ(config)# int g0/1
+HQ(config-if)# no shut
+HQ(config-if)# exit
+
+
 Het kan zijn dat je niet 100% haalt, ik heb zelf de guide gevolgd en ik kwam op 97% uit toen ik de oefening opnieuw maakte. Ik weet niet exact welke stappen ik gemist heb. Let me know en verbeter gerust.
 
 Good job, je bent nu een stap dichter tot een 20/20 voor Routing en switching
